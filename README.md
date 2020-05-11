@@ -47,6 +47,7 @@ There are two key types in Combine:
 
 *There are also `Operators` which play an important role in Combine but we won't worry about them for now as they will be covered in a later chapter. Operators are also `Publishers`.*
 <div id="Publisher"></div>
+
 ## Publisher
 
 `Publisher` is a protocol that declares a type that can deliver 
@@ -77,6 +78,7 @@ extension Publisher {
 
 As you see above, there are two generic constraints to ensure that the `Publishers` `Output`& `Failure` types match the `Subscribers` `Input` & `Failure`.
 <div id="Subscriber"></div>
+
 ## Subscriber
 
 `Subscriber` is a protocol that declares a type that can receive input from a publisher. It is generic over two types: `Input` and `Failure` respectively.
