@@ -77,7 +77,7 @@ protocol Subscriber: CustomCombineIdentifierConvertible {
 
 So how do these work together?
 
-![](Combine%20Pattern.png)
+![Combine Pattern Image](https://github.com/vukrado/CombineInternals/blob/master/images/Combine-Pattern.png)
 
 1. The `Subscriber` subscribes to the `Publisher`. 
 2. The `Publisher` creates a `Subscription` and sends it to the `Subscriber`.
@@ -134,7 +134,7 @@ We need to fill out the receive method, if we remember step 2. from the graph ea
 
 If we do a search on Just.receive we will see the generated assembly for the `receive(subscriber:)` method.
 
-![](Just-receive-asm.png)
+![Just Receive Method Assembly](https://github.com/vukrado/CombineInternals/blob/master/images/Just-receive-asm.png)
 
 Inside this method we see that there is a hidden type `Just.Inner`. Its initializer takes a generic downstream and the generic `Output` as a value so let's set that up.
 
