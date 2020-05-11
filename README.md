@@ -3,9 +3,22 @@
 By Vuk Radosavljevic
 
 
-# Table of Contents
+## Table of Contents
+[Chapter 1. What is Combine?](https://github.com/vukrado/CombineInternals/blob/master/README.md#chapter-1-what-is-combine)
 
-{{TOC}}
+[Chapter 2. Overview of Publishers & Subscribers](https://github.com/vukrado/CombineInternals/blob/master/README.md#chapter-2-overview-of-publishers--subscribers)
+
+[Chapter 3. Just Publisher From Scratch](https://github.com/vukrado/CombineInternals/blob/master/README.md#chapter-3-just-publisher-from-scratch)
+
+[Chapter 4. Sink from Scratch](https://github.com/vukrado/CombineInternals/blob/master/README.md#chapter-4-sink-from-scratch)
+
+[Chapter 5. Operators](https://github.com/vukrado/CombineInternals/blob/master/README.md#chapter-5-operators)
+
+[Chapter 6. Subjects](https://github.com/vukrado/CombineInternals/blob/master/README.md#chapter-6-subjects)
+
+[Chapter 7. Backpressure](https://github.com/vukrado/CombineInternals/blob/master/README.md#chapter-7-back-pressure)
+
+
 
 # Chapter 1: What is Combine?
 
